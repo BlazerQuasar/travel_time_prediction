@@ -79,9 +79,15 @@ python src/models/predict_model.py
 
 
 **1. Data Collection and Integration**: Consolidate historical traffic records, weather data, road congestion indicators, and holiday schedules.
+
 **2. Exploratory Data Analysis and Preprocessing**: Clean the data, handle missing values and outliers, and encode categorical variables.
+
 **3. Feature Engineering**: Create meaningful variables, such as peak period indicators, road segment density, and holiday markers.
+
 **4. Feature Selection**: Use methods like recursive feature elimination and mutual information scores to choose the most influential predictive factors.
+
 **5. Model Training and Validation**: Split the dataset, train the Random Forest regressor, and optimize hyperparameters.
+
 **6. Iterative Optimization and Evaluation**: Use cross-validation to ensure model reliability, and adjust the feature engineering process based on error analysis.
+
 **7. Deployment and Continuous Monitoring**: Deploy the validated model into production and establish monitoring mechanisms to track its performance.
